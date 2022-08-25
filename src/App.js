@@ -1,28 +1,28 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Tester from "./components/Tester"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
+    <BrowserRouter>
+      <div style={{ backgroundColor: "blue" }}>
+
         <Navbar />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Routes>
+          <Route exact path="/two" element={<Header />} >
+
+          </Route>
+          <Route exact path="/" element={<Tester />}>
+          </Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
