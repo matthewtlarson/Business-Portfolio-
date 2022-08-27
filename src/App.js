@@ -13,19 +13,19 @@ import Portfolio from './pages/Portfolio';
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} >
+          <Route exact path="/home" element={<Home />}>
           </Route>
-          <Route exact path="/two" element={<About />}>
+          <Route exact path="/about" element={<About />}>
           </Route>
-          <Route exact path="#" element={<Portfolio />}>
+          <Route exact path="/portfolio" element={<Portfolio />}>
           </Route>
-          <Route exact path="$" element={<Contact />}>
+          <Route exact path="/contact" element={<Contact />}>
           </Route>
         </Routes>
-      </div>
+      </>
     </BrowserRouter>
   );
 }
