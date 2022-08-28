@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
-    <ul className="justify-content-end d-flex" style={{ width: "100%", backgroundColor:'#000068', listStyleType: 'none', padding: '30px' }}>
+    <ul className="justify-content-end d-flex mb-0" style={{ width: "100%", backgroundColor:'black', listStyleType: 'none', padding: '30px' }}>
         <li className="me-5 mt-1 p-1">
           <Link to="/home" style={{color:'white', fontFamily: 'oswald', fontSize: '25px'}}>
             Home
