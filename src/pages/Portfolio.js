@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function Portfolio() {
   return (
-    <div style={{backgroundColor: 'black', color: 'white', marginBottom: '0px', display: 'flex', flexDirection: 'row'}}>
+    <div style={{backgroundColor: 'black', color: 'white', marginBottom: '0px', display: 'flex', flexDirection: 'row', fontFamily: 'roboto'}}>
       <h1>Take a look at some of my projects...</h1>
       <div>
       <Card style={{ width: '18rem' }}>
