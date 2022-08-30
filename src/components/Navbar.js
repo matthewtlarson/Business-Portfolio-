@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <ul className="justify-content-end d-flex mb-0" style={{ width: "100%", backgroundColor:'black', listStyleType: 'none', padding: '30px' }}>
         <li className="me-5 mt-1 p-1">
-          <Link to="/home" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
+          <Link to="/" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
             Home
           </Link>
         </li>

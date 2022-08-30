@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import '../App.css';
+import {Link} from "react-router-dom";
 
 
 function Home() {
@@ -13,7 +14,9 @@ function Home() {
       <h4 className='d-flex justify-content-center' style={{fontSize: '25px', fontFamily: 'roboto', fontWeight: '700', fontStyle: 'italic', color: 'white', marginLeft:'40px'}}>Junior Full-Stack Web Developer</h4>
       </div>
       <div style={{ marginTop: '22%', marginRight: '800px'}}>
+      <Link to="/about">
       <button class="glow-on-hover" type="button">LEARN ABOUT ME</button>
+      </Link>
       </div>
     </div>
   )

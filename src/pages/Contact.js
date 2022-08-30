@@ -8,9 +8,10 @@ import Col from "react-bootstrap/Col";
 function Contact() {
   return (
     <div style={{backgroundColor: 'black', color: 'white', marginBottom: '0px', fontFamily: 'roboto'}}>
-    <Container style={{width:'100vh'}}>
+    <Container style={{width:'100vh', height: '100vh'}}>
     <Row className="row justify-content-between">
       <h1>Want to get in touch?</h1>
+      <a href="mailTo:matthewtlarson@arizona.edu">✉</a>
       <Form style={{width: '75%'}}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -19,7 +20,6 @@ function Contact() {
           Response within 1 business day.
         </Form.Text>
       </Form.Group>
-
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Message</Form.Label>
         <Form.Control type="text" placeholder="I am messaging because..." />
