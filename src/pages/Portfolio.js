@@ -21,7 +21,7 @@ function Portfolio() {
       </Card.Body>
     </Card>
       </div>
-      <div style={{ marginBottom: '0px', marginTop: '20vh', marginRight: '200px'   }}>
+      <div style={{ marginBottom: '0px', marginTop: '20vh', marginRight: '200px' }}>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={STOCK} />
       <Card.Body>
@@ -34,10 +34,10 @@ function Portfolio() {
     </Card>
       </div>
       <div>
-      <Card style={{ width: '18rem', marginTop: '20vh' }}>
+      <Card style={{ width: '18rem', marginTop: '20vh', marginRight: '200px' }}>
       <Card.Img variant="top" src={DBD} style={{height: '24vh'}} />
       <Card.Body>
-        <Card.Title style={{color: 'black', fontSize: '30px', fontWeight: '700'}}>DayByDay</Card.Title>
+        <Card.Title style={{color: 'black', fontSize: '30px', fontWeight: '700' }}>DayByDay</Card.Title>
         <Card.Text style={{color: 'black'}}>
         The DayByDay application was created with the intention to help motivate, track, and urge you to stay consistent in a specific area of your life.
         </Card.Text>
