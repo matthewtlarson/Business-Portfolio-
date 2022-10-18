@@ -1,30 +1,32 @@
 import React from 'react';
-import '../styles/Navbar.css';
-import {Link} from "react-router-dom"
 
-const styles = {
-  navbarStyle: {
-    background: 'black',
-    justifyContent: 'flex-end',
-    border: "5px solid red"
-  },
-};
+// import '../styles/Navbar.css';
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav style={styles.navbarStyle} className="navbar">
-       <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/two">About</Link>
-          </li>
-          <li>
-            <Link to="#">Topics</Link>
-          </li>
-        </ul>
-    </nav>
+    <ul className="justify-content-end d-flex mb-0" style={{ width: "100%", backgroundColor:'black', listStyleType: 'none', padding: '30px' }}>
+        <li className="me-5 mt-1 p-1">
+          <Link to="/" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
+            Home
+          </Link>
+        </li>
+        <li className="me-5 mt-1 p-1">
+          <Link to="/about" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
+            About
+          </Link>
+        </li>
+        <li className="me-5 mt-1 p-1">
+          <Link to="/portfolio" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
+            Portfolio
+          </Link>
+        </li>
+        <li className="me-5 mt-1 p-1">
+          <Link to="/contact" style={{color:'white', fontFamily: 'roboto', fontSize: '25px'}}>
+            Contact
+          </Link>
+        </li>
+    </ul>
   );
 }
 

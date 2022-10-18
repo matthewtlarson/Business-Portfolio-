@@ -5,23 +5,27 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Tester from "./components/Tester"
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
     <BrowserRouter>
-      <div style={{ backgroundColor: "blue" }}>
-
+      <>
         <Navbar />
         <Routes>
-          <Route exact path="/two" element={<Header />} >
-
+          <Route exact path="/" element={<Home />}>
           </Route>
-          <Route exact path="/" element={<Tester />}>
+          <Route exact path="/about" element={<About />}>
+          </Route>
+          <Route exact path="/portfolio" element={<Portfolio />}>
+          </Route>
+          <Route exact path="/contact" element={<Contact />}>
           </Route>
         </Routes>
-      </div>
+      </>
     </BrowserRouter>
   );
 }
