@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const styles = {
   navbarStyle: {
-    background: 'green',
+    background: 'black',
     justifyContent: 'flex-end',
     border: "5px solid red"
   },
