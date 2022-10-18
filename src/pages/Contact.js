@@ -15,6 +15,7 @@ function Contact() {
       <button class="glow-on-hover" type="button" style={{width: '120px', marginTop: '90px'}}><a href="https://www.linkedin.com/in/matthew-larson51/" target="_" style={{color: 'white', fontSize: '20px' }}> LinkedIn </a></button>
       <button class="glow-on-hover" type="button" style={{width: '120px', marginTop: '90px'}}><a href="https://github.com/matthewtlarson" target="_" style={{color: 'white', fontSize: '20px' }}>Github</a></button>
       <button class="glow-on-hover" type="button" style={{width: '120px', marginTop: '90px'}}><a href="https://www.instagram.com/matt_larson33/?hl=en" target="_" style={{color: 'white', fontSize: '20px' }}>Instagram</a></button>
+      <button class="glow-on-hover" type="button" style={{width: '120px', marginTop: '90px'}}><a href="https://drive.google.com/file/d/1MVv2KieaC_O9iM5tJioFEbliFKPriP39/view?usp=sharing" target="_" style={{color: 'white', fontSize: '20px' }}>Resume</a></button>
     </Row>
     </Container>
     </div>
